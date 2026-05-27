@@ -1,0 +1,85 @@
+name: CI/CD Deploy WordPress
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    env:
+      WORDPRESS_IMAGE: wordpress:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          printf "%s\n" "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
+
+      - name: Sync .env from GitHub secret
+        env:
+          WORDPRESS_ENV: ${{ secrets.WORDPRESS_ENV }}
+        run: |
+          if [ -z "$WORDPRESS_ENV" ]; then
+            echo "❌ Falta el secret WORDPRESS_ENV"
+            echo "   GitHub → Settings → Secrets → Actions → New repository secret"
+            echo "   Pega el contenido completo de tu .env"
+            exit 1
+          fi
+
+          printf '%s\n' "$WORDPRESS_ENV" > /tmp/wordpress.env
+
+          ssh -i ~/.ssh/id_rsa root@${{ secrets.SERVER_IP }} "mkdir -p /app/wordpress"
+          scp -i ~/.ssh/id_rsa /tmp/wordpress.env root@${{ secrets.SERVER_IP }}:/app/wordpress/.env
+          ssh -i ~/.ssh/id_rsa root@${{ secrets.SERVER_IP }} "chmod 600 /app/wordpress/.env"
+
+          rm -f /tmp/wordpress.env
+          echo "✅ .env WordPress sincronizado"
+
+      - name: Deploy WordPress container
+        run: |
+          ssh -i ~/.ssh/id_rsa root@${{ secrets.SERVER_IP }} << EOF
+            set -e
+
+            WORDPRESS_IMAGE="${WORDPRESS_IMAGE}"
+
+            echo "========================================"
+            echo "1. Directorio persistente WordPress"
+            echo "========================================"
+            mkdir -p /app/wordpress/html
+            chown -R 33:33 /app/wordpress/html 2>/dev/null || true
+            chmod -R 775 /app/wordpress/html 2>/dev/null || true
+
+            echo "========================================"
+            echo "2. Red Docker app_network"
+            echo "========================================"
+            docker network inspect app_network >/dev/null 2>&1 || docker network create app_network
+
+            echo "========================================"
+            echo "3. Contenedor WordPress"
+            echo "========================================"
+            docker stop wordpress || true
+            docker rm wordpress || true
+
+            docker run -d \
+              --name wordpress \
+              --network app_network \
+              --restart unless-stopped \
+              --env-file /app/wordpress/.env \
+              -v /app/wordpress/html:/var/www/html \
+              "\$WORDPRESS_IMAGE"
+
+            echo "========================================"
+            echo "4. Estado"
+            echo "========================================"
+            docker ps --filter name=wordpress
+
+            echo "✅ WordPress desplegado"
+          EOF
