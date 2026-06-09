@@ -1,4 +1,4 @@
-# Diseño de un sistema de reconocimiento de gestos faciales y su relación con la innovación en la interacción de los videojuegos interactivos
+by# Diseño de un sistema de reconocimiento de gestos faciales y su relación con la innovación en la interacción de los videojuegos interactivos
 
 **Documento base para tesis de sustentación**  
 **Nivel:** Tercero de Bachillerato  
@@ -53,7 +53,7 @@ En la actualidad, las personas buscan experiencias digitales más dinámicas, ac
 
 El problema principal se encuentra en que la interacción tradicional en videojuegos no siempre permite una experiencia suficientemente innovadora ni natural. Por ejemplo, para mover un personaje normalmente se presionan teclas o botones. Sin embargo, el rostro humano puede expresar intención mediante gestos como mirar hacia un lado, abrir la boca, sonreír o levantar las cejas. Si estos gestos se reconocen correctamente, podrían utilizarse como comandos dentro de un videojuego.
 
-Se podria crear parteiendo de este comocimiento, una propuesta para explorar esta situación, donde una aplicacion web y/o sitio web usa la cámara web para detectar el rostro del usuario, reconocer emociones y obtener información facial. Además, incluye se podria ir mas alla, incluyendo juegos interactivis en que los gestos del rostro pueden servir para controlar acciones del personaje. Esto demuestra que la cámara no solo puede funcionar como un accesorio visual, sino como un medio de interacción.
+Se podria crear parteiendo de este comocimiento, una propuesta para explorar esta situación, donde una aplicacion web y/o sitio web usa la cámara web para detectar el rostro del usuario, reconocer emociones y obtener información facial. Además de esto, se podria ir mas alla, incluyendo juegos interactivos en que los gestos del rostro pueden servir para controlar acciones del personaje. Esto demuestra que la cámara no solo puede funcionar como un accesorio visual, sino como un medio de interacción.
 
 No obstante, el reconocimiento de gestos faciales también presenta dificultades. La precisión puede depender de la iluminación, la calidad de la cámara, la posición del rostro, la distancia del usuario y la capacidad del sistema para interpretar correctamente los puntos faciales. Además, al trabajar con cámara e imágenes, también se deben considerar aspectos de privacidad, consentimiento y uso responsable de los datos. Estos elementos hacen que el tema no sea únicamente técnico, sino también educativo y ético.
 
