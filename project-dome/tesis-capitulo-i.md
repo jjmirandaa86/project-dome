@@ -33,7 +33,9 @@ El reconocimiento de gestos faciales se relaciona con diferentes áreas de estud
 
 Un primer antecedente importante se encuentra en el estudio de las emociones humanas. Ekman (1992) planteó que existen expresiones faciales básicas que pueden relacionarse con emociones como alegría, tristeza, enojo, sorpresa, miedo y disgusto. Este aporte es relevante para la presente investigación porque el sistema propuesto trabaja con expresiones faciales para identificar emociones o gestos que pueden ser utilizarse dentro de una aplicación interactiva.
 
-Un segundo antecedente se relaciona con la computación afectiva. Picard (1997) explicó que las computadoras pueden diseñarse para reconocer, interpretar y responder a estados emocionales humanos. Esta idea es fundamental para el proyecto, porque MoodVision AI / PlayFace no se limita a mostrar una cámara, sino que intenta interpretar señales del rostro y convertirlas en datos visibles para el usuario.
+Un segundo antecedente se relaciona con la computación afectiva. 
+Picard (1997) explicó que las computadoras pueden diseñarse para reconocer, interpretar y responder a estados emocionales humanos. 
+Esta idea es fundamental para el proyecto, porque no solo se limita a mostrar una cámara, sino que intenta interpretar señales del rostro y convertirlas en datos visibles para el usuario.
 
 Un tercer antecedente corresponde a la visión por computadora. Viola y Jones (2001) presentaron un método de detección de objetos que fue muy importante para el reconocimiento de rostros en imágenes digitales. Aunque las tecnologías actuales han avanzado mucho más, este tipo de investigaciones permitió que los sistemas modernos puedan detectar rostros de manera más rápida y eficiente.
 
