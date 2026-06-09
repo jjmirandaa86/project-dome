@@ -51,7 +51,7 @@ En la actualidad, las personas buscan experiencias digitales más dinámicas, ac
 
 El problema principal se encuentra en que la interacción tradicional en videojuegos no siempre permite una experiencia suficientemente innovadora ni natural. Por ejemplo, para mover un personaje normalmente se presionan teclas o botones. Sin embargo, el rostro humano puede expresar intención mediante gestos como mirar hacia un lado, abrir la boca, sonreír o levantar las cejas. Si estos gestos se reconocen correctamente, podrían utilizarse como comandos dentro de un videojuego.
 
-El proyecto MoodVision AI / PlayFace surge como una propuesta para explorar esta situación. La aplicación usa la cámara web para detectar el rostro del usuario, reconocer emociones y obtener información facial. Además, incluye un juego en el que los gestos del rostro pueden servir para controlar acciones del personaje. Esto demuestra que la cámara no solo puede funcionar como un accesorio visual, sino como un medio de interacción.
+Se podria crear parteiendo de este comocimiento, una propuesta para explorar esta situación, donde una aplicacion web y/o sitio web usa la cámara web para detectar el rostro del usuario, reconocer emociones y obtener información facial. Además, incluye se podria ir mas alla, incluyendo juegos interactivis en que los gestos del rostro pueden servir para controlar acciones del personaje. Esto demuestra que la cámara no solo puede funcionar como un accesorio visual, sino como un medio de interacción.
 
 No obstante, el reconocimiento de gestos faciales también presenta dificultades. La precisión puede depender de la iluminación, la calidad de la cámara, la posición del rostro, la distancia del usuario y la capacidad del sistema para interpretar correctamente los puntos faciales. Además, al trabajar con cámara e imágenes, también se deben considerar aspectos de privacidad, consentimiento y uso responsable de los datos. Estos elementos hacen que el tema no sea únicamente técnico, sino también educativo y ético.
 
@@ -61,7 +61,7 @@ Por lo tanto, la pregunta central de esta investigación es:
 
 **¿De qué manera el diseño de un sistema de reconocimiento de gestos faciales puede relacionarse con la innovación en la interacción de los videojuegos interactivos?**
 
-A partir de esta pregunta, se busca analizar cómo un prototipo funcional puede reconocer gestos mediante una cámara web y utilizarlos para mejorar la experiencia de interacción en un videojuego. La investigación no pretende afirmar que los controles tradicionales deben desaparecer, sino demostrar que los gestos faciales pueden convertirse en una alternativa innovadora, especialmente para proyectos educativos, demostraciones tecnológicas y experiencias interactivas.
+A partir de esta pregunta, se busca analizar cómo un prototipo funcional puede reconocer gestos mediante una cámara web y utilizarlos para mejorar la experiencia de interacción en un videojuego. La investigación no pretende afirmar que los controles tradicionales deben desaparecer, sino demostrar que los gestos faciales pueden convertirse en una alternativa innovadora, especialmente para proyectos educativos, demostraciones tecnológicas y experiencias interactivas, y porque no, se podria aplicar en el campo de la salud, para personas con movilidades redusidas, es decir, personas con discapacidades fisicas motoras.
 
 ## 1.3 Justificación del Estudio
 
