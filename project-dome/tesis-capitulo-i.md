@@ -67,7 +67,7 @@ A partir de esta pregunta, se busca analizar cómo un prototipo funcional puede 
 
 ## 1.3 Justificación del Estudio
 
-La presente investigación se justifica porque permite estudiar una forma moderna de interacción entre las personas y los videojuegos. En lugar de usar únicamente controles físicos, el sistema propone utilizar gestos faciales detectados por una cámara web. Esta idea resulta importante porque acerca la tecnología a una forma más natural de comunicación humana.
+La presente investigación se justifica porque permite estudiar una forma moderna de interacción entre las personas y los videojuegos. En lugar de usar únicamente controles físicos, el proyecto propone utilizar gestos faciales detectados por una cámara web. Esta idea resulta importante porque acerca la tecnología a una forma más natural de comunicación humana.
 
 ### Justificación teórica
 
