@@ -143,7 +143,7 @@ Entre las fuentes principales se consideran investigaciones sobre emociones faci
 
 Las fuentes técnicas corresponden a la documentación de las herramientas utilizadas en el proyecto, como React, face-api.js, Node.js&Express y MySQL. Estas fuentes permiten comprender cómo se construye el sistema y qué función cumple cada tecnología.
 
-![Procesos de funcionamiento / fuentes tecnicas](./Arquitectura Simple.png)
+![Procesos de funcionamiento / fuentes tecnicas](ArquitecturaSimple.png)
 
 ### Técnicas de recolección
 
