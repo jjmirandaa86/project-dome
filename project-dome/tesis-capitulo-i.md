@@ -1,4 +1,4 @@
-by# Diseño de un sistema de reconocimiento de gestos faciales y su relación con la innovación en la interacción de los videojuegos interactivos
+# Diseño de un sistema de reconocimiento de gestos faciales y su relación con la innovación en la interacción de los videojuegos interactivos
 
 **Documento base para tesis de sustentación**  
 **Nivel:** Tercero de Bachillerato  
@@ -77,33 +77,29 @@ Además, el proyecto permite comprender que la innovación en videojuegos no dep
 
 ### Justificación práctica
 
-Desde el punto de vista práctico, el proyecto MoodVision AI / PlayFace sirve como un prototipo funcional que demuestra la aplicación real de los conceptos investigados. El sistema permite activar la cámara, reconocer emociones, mostrar información en pantalla, guardar datos en un backend y utilizar gestos faciales dentro de un juego. Esto convierte la investigación en una propuesta aplicada, no solamente teórica.
+Desde el punto de vista práctico, la propuesta de este proyecto, sirvira como un prototipo funcional que demuestra la aplicación real de los conceptos investigados, permitiendo activar la cámara, reconocer emociones, mostrar información en pantalla, guardar datos en un backend y utilizar gestos faciales dentro de un juego. Esto convierte la investigación en una propuesta aplicada, no solamente teórica.
 
-Para un estudiante de tercero de bachillerato técnico informático, esta investigación es útil porque integra conocimientos aprendidos durante la formación académica. El proyecto combina programación web, manejo de datos, consumo de APIs, diseño de interfaz, inteligencia artificial y lógica de videojuegos. Por lo tanto, permite demostrar competencias técnicas de una manera visual y comprensible.
+Para un estudiante de tercero de bachillerato técnico informático, esta investigación es útil porque integra conocimientos aprendidos durante la formación académica. El proyecto combina programación web, manejo de datos, consumo de APIs, diseño de interfaz, inteligencia artificial y lógica de videojuegos. Por lo tanto, permite demostrar competencias técnicas de una manera visual y comprensible, ademas de poder ampliar fuertemente el conocimiento adquirido de forma practica, siendo parte del equipo, aportando todas las pruebas funcionales (Quality Assurance) de cada opcion.
 
-También tiene valor educativo porque puede motivar a otros estudiantes a explorar nuevas formas de interacción digital. Al observar que una cámara puede reconocer gestos y convertirlos en acciones dentro de un videojuego, se evidencia que la informática puede crear soluciones creativas, accesibles e innovadoras.
-
-Finalmente, el estudio es importante porque promueve una reflexión sobre el uso responsable de tecnologías que trabajan con imágenes del rostro. Esto permite incluir en la investigación aspectos como privacidad, consentimiento y seguridad, los cuales son necesarios cuando se desarrollan sistemas que interactúan con datos personales.
+Finalmente, el estudio tiene valor educativo porque puede motivar a otros estudiantes a explorar nuevas formas de interacción digital. Al observar que una cámara puede reconocer gestos y convertirlos en acciones dentro de un videojuego, se evidencia que la informática puede crear soluciones creativas, accesibles e innovadoras.
 
 ## 1.4 Objetivos del Estudio
 
-Los objetivos de la investigación permiten orientar el desarrollo del trabajo y mantener el enfoque en el tema principal. En este caso, todos los objetivos se relacionan con el diseño de un sistema de reconocimiento de gestos faciales y su relación con la innovación en videojuegos interactivos.
+Los objetivos de la investigación permiten orientar el desarrollo del trabajo y mantener el enfoque en el tema principal. En este caso, todos los objetivos se relacionan al presentar una propuesta para el diseño de un sistema de reconocimiento de gestos faciales y su relación con la innovación en videojuegos interactivos.
 
 ## 1.4.1 Objetivo General
 
-Diseñar un sistema de reconocimiento de gestos faciales que permita analizar expresiones del usuario mediante una cámara web y relacionar dicha información con nuevas formas de interacción en videojuegos interactivos.
-
-Este objetivo busca demostrar cómo los gestos del rostro pueden convertirse en comandos digitales dentro de un prototipo funcional, utilizando tecnologías web e inteligencia artificial.
+Este proyecto premitira dar a conocer como se puede diseñar un sistema de reconocimiento de gestos faciales que permita analizar expresiones del usuario mediante una cámara web y relacionar dicha información con nuevas formas de interacción en videojuegos interactivos. Este objetivo busca demostrar cómo los gestos del rostro pueden convertirse en comandos digitales, utilizando tecnologías web e inteligencia artificial.
 
 Además, pretende explicar de qué manera esta propuesta representa una innovación frente a los métodos tradicionales de control en videojuegos.
 
-Finalmente, el objetivo general permite integrar conocimientos técnicos de programación, diseño de interfaces, backend, base de datos y visión por computadora.
+Finalmente, el objetivo general permite integrar conocimientos técnicos de programación, diseño de interfaces, backend, base de datos y visión por computadora, donde estare participando como Quality Assurance (QA).
 
 ## 1.4.2 Objetivos Específicos
 
 1. Identificar las características principales del reconocimiento de gestos faciales y su aplicación dentro de un sistema interactivo basado en cámara web.
 
-2. Describir cómo el prototipo MoodVision AI / PlayFace utiliza inteligencia artificial, frontend, backend y base de datos para mejorar la interacción en un videojuego controlado por gestos faciales.
+2. Describir cuales son las herramientas que se podria utilizar, para mejorar la interacción en un videojuego controlado por gestos faciales.
 
 3. Analizar la relación entre el uso de gestos faciales y la innovación en la experiencia del usuario dentro de videojuegos interactivos.
 
