@@ -3,7 +3,7 @@
 **Documento base para tesis de sustentación**  
 **Nivel:** Tercero de Bachillerato  
 **Especialización:** Técnico Informático  
-**Proyecto aplicado:** MoodVision AI / PlayFace  
+**Proyecto aplicado:** MoodVision AI / PlayFace
 
 ## Nota de Formato APA
 
@@ -15,7 +15,7 @@ Las citas colocadas en el texto siguen el estilo autor-año, por ejemplo: (Picar
 
 En la actualidad, la tecnología ha cambiado la manera en que las personas se comunican, aprenden y se entretienen. Los videojuegos, que antes dependían únicamente de botones, teclados o controles físicos, han evolucionado hacia nuevas formas de interacción más naturales e innovadoras. Dentro de este contexto, el reconocimiento de gestos faciales representa una alternativa interesante, porque permite que el rostro del usuario se convierta en una forma de control dentro de un entorno digital.
 
-El presente trabajo de investigación se titula **“Diseño de un sistema de reconocimiento de gestos faciales y su relación con la innovación en la interacción de los videojuegos interactivos”**. El tema se enfoca en analizar cómo un sistema informático puede reconocer expresiones y movimientos faciales mediante una cámara web, para luego utilizar esa información dentro de una aplicación interactiva. 
+El presente trabajo de investigación se titula **“Diseño de un sistema de reconocimiento de gestos faciales y su relación con la innovación en la interacción de los videojuegos interactivos”**. El tema se enfoca en analizar cómo un sistema informático puede reconocer expresiones y movimientos faciales mediante una cámara web, para luego utilizar esa información dentro de una aplicación interactiva.
 
 La importancia de este tema se encuentra en que los sistemas de interacción tradicionales no siempre ofrecen experiencias accesibles, novedosas o adaptadas al comportamiento natural del usuario. Por esta razón, el uso de la inteligencia artificial y la visión por computadora puede aportar nuevas posibilidades en el desarrollo de videojuegos interactivos. Según Picard (1997), la computación afectiva estudia cómo los sistemas pueden reconocer y responder a aspectos relacionados con las emociones humanas. Esta idea se vincula con el propósito del proyecto, ya que el sistema no solo recibe acciones del usuario, sino que también interpreta señales faciales.
 
@@ -33,8 +33,8 @@ El reconocimiento de gestos faciales se relaciona con diferentes áreas de estud
 
 Un primer antecedente importante se encuentra en el estudio de las emociones humanas. Ekman (1992) planteó que existen expresiones faciales básicas que pueden relacionarse con emociones como alegría, tristeza, enojo, sorpresa, miedo y disgusto. Este aporte es relevante para la presente investigación porque el sistema propuesto trabaja con expresiones faciales para identificar emociones o gestos que pueden ser utilizarse dentro de una aplicación interactiva.
 
-Un segundo antecedente se relaciona con la computación afectiva. 
-Picard (1997) explicó que las computadoras pueden diseñarse para reconocer, interpretar y responder a estados emocionales humanos. 
+Un segundo antecedente se relaciona con la computación afectiva.
+Picard (1997) explicó que las computadoras pueden diseñarse para reconocer, interpretar y responder a estados emocionales humanos.
 Esta idea es fundamental para el proyecto, porque no solo se limita a mostrar una cámara, sino que intenta interpretar señales del rostro y convertirlas en datos visibles para el usuario.
 
 Un tercer antecedente corresponde a la visión por computadora. Viola y Jones (2001) presentaron un método de detección de objetos que fue muy importante para el reconocimiento de rostros en imágenes digitales. Aunque las tecnologías actuales han avanzado mucho más, este tipo de investigaciones permitió que los sistemas modernos puedan detectar rostros de manera más rápida y eficiente.
@@ -143,6 +143,8 @@ Entre las fuentes principales se consideran investigaciones sobre emociones faci
 
 Las fuentes técnicas corresponden a la documentación de las herramientas utilizadas en el proyecto, como React, face-api.js, Node.js&Express y MySQL. Estas fuentes permiten comprender cómo se construye el sistema y qué función cumple cada tecnología.
 
+![Procesos de funcionamiento / fuentes tecnicas](./Arquitectura Simple.png)
+
 ### Técnicas de recolección
 
 Las técnicas de recolección de información recomendadas son:
@@ -155,37 +157,33 @@ Las técnicas de recolección de información recomendadas son:
 
 Estas técnicas permiten obtener información suficiente para explicar el proyecto de manera clara y fundamentada durante la sustentación.
 
-
-
-
-
 ## Glosario Básico
 
-| Término | Explicación sencilla |
-|---|---|
+| Término                 | Explicación sencilla                                                                                         |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------ |
 | Inteligencia artificial | Tecnología que permite a un sistema realizar tareas que normalmente requieren razonamiento o interpretación. |
-| Visión por computadora | Área que permite a una computadora analizar imágenes o video. |
-| Reconocimiento facial | Proceso mediante el cual un sistema detecta un rostro en una imagen o video. |
-| Gestos faciales | Movimientos o expresiones del rostro, como sonreír, abrir la boca o mirar hacia un lado. |
-| Videojuego interactivo | Juego donde el usuario participa activamente y sus acciones modifican lo que ocurre en pantalla. |
-| Frontend | Parte visual de la aplicación que usa el usuario. |
-| Backend | Parte interna que procesa y guarda información. |
-| Base de datos | Sistema donde se almacena información para consultarla después. |
+| Visión por computadora  | Área que permite a una computadora analizar imágenes o video.                                                |
+| Reconocimiento facial   | Proceso mediante el cual un sistema detecta un rostro en una imagen o video.                                 |
+| Gestos faciales         | Movimientos o expresiones del rostro, como sonreír, abrir la boca o mirar hacia un lado.                     |
+| Videojuego interactivo  | Juego donde el usuario participa activamente y sus acciones modifican lo que ocurre en pantalla.             |
+| Frontend                | Parte visual de la aplicación que usa el usuario.                                                            |
+| Backend                 | Parte interna que procesa y guarda información.                                                              |
+| Base de datos           | Sistema donde se almacena información para consultarla después.                                              |
 
 ## Referencias
 
-Ekman, P. (1992). An argument for basic emotions. *Cognition and Emotion, 6*(3-4), 169-200. https://doi.org/10.1080/02699939208411068
+Ekman, P. (1992). An argument for basic emotions. _Cognition and Emotion, 6_(3-4), 169-200. https://doi.org/10.1080/02699939208411068
 
-Google. (s. f.). *TensorFlow.js*. https://www.tensorflow.org/js
+Google. (s. f.). _TensorFlow.js_. https://www.tensorflow.org/js
 
-Justadudewhohacks. (s. f.). *face-api.js*. GitHub. https://github.com/justadudewhohacks/face-api.js
+Justadudewhohacks. (s. f.). _face-api.js_. GitHub. https://github.com/justadudewhohacks/face-api.js
 
-MDN Web Docs. (s. f.). *MediaDevices: getUserMedia() method*. https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia
+MDN Web Docs. (s. f.). _MediaDevices: getUserMedia() method_. https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia
 
-Phaser. (s. f.). *Phaser: HTML5 game framework*. https://phaser.io/
+Phaser. (s. f.). _Phaser: HTML5 game framework_. https://phaser.io/
 
-Picard, R. W. (1997). *Affective computing*. MIT Press.
+Picard, R. W. (1997). _Affective computing_. MIT Press.
 
-React. (s. f.). *React documentation*. https://react.dev/
+React. (s. f.). _React documentation_. https://react.dev/
 
-Viola, P., & Jones, M. (2001). Rapid object detection using a boosted cascade of simple features. *Proceedings of the 2001 IEEE Computer Society Conference on Computer Vision and Pattern Recognition*, 1, I-511-I-518. https://doi.org/10.1109/CVPR.2001.990517
+Viola, P., & Jones, M. (2001). Rapid object detection using a boosted cascade of simple features. _Proceedings of the 2001 IEEE Computer Society Conference on Computer Vision and Pattern Recognition_, 1, I-511-I-518. https://doi.org/10.1109/CVPR.2001.990517
