@@ -107,17 +107,17 @@ Finalmente, el objetivo general permite integrar conocimientos técnicos de prog
 
 ## 1.5 Aspectos Metodológicos de la Investigación
 
-Los aspectos metodológicos explican la forma en que se desarrolla la investigación. En este trabajo se toma como base un proyecto tecnológico aplicado, por lo que el estudio se orienta a describir, analizar y demostrar el funcionamiento de un sistema de reconocimiento de gestos faciales.
+Los aspectos metodológicos explican la forma en que se desarrolla la investigación. En este trabajo se toma como base en describir, analizar el funcionamiento de un sistema de reconocimiento de gestos faciales, demostrando al importancia del uso de nuevas tecnologias.
 
-El trabajo no se limita a recopilar teoría, sino que también se apoya en un prototipo funcional. Esto permite observar cómo se comporta el sistema cuando el usuario activa la cámara, realiza gestos faciales y participa en una experiencia interactiva.
+El trabajo no se limita a la recopilación de fundamentos teóricos, sino que también incluye la definición de una propuesta tecnológica que describe el funcionamiento esperado del sistema. De esta manera, se analiza la interacción entre el usuario y los componentes del sistema, como la captura de imágenes mediante la cámara y el reconocimiento de gestos faciales en un entorno interactivo.
 
 ## 1.5.1 Tipo de Estudio
 
 El tipo de estudio es **descriptivo y aplicado**.
 
-Es descriptivo porque busca explicar las características del sistema, sus componentes, su funcionamiento y su relación con la interacción en videojuegos. La investigación describe cómo la aplicación detecta el rostro, interpreta gestos, muestra información visual y permite controlar acciones dentro de un juego.
+Es descriptivo porque busca explicar las características de la propuesta, sus componentes, su funcionamiento y su relación con la interacción en videojuegos. La investigación describe cómo la aplicación detecta el rostro, interpreta gestos, muestra información visual y permite controlar acciones dentro de un juego.
 
-Es aplicado porque se basa en el diseño y uso de un prototipo real. El proyecto MoodVision AI / PlayFace no se queda solamente en una idea, sino que presenta una aplicación funcional donde se integran cámara web, inteligencia artificial, dashboard, backend, base de datos y juego facial.
+Es aplicado porque se centra en el diseño y la propuesta de una solución tecnológica orientada a resolver una necesidad específica. El proyecto trasciende el planteamiento conceptual al definir una arquitectura que integra componentes como cámara web, inteligencia artificial, dashboard, backend, base de datos y un sistema de interacción basado en gestos faciales. Esta propuesta permite analizar la viabilidad y el funcionamiento esperado de cada elemento dentro de un entorno interactivo.
 
 También puede considerarse una investigación tecnológica, ya que se orienta a resolver una necesidad práctica mediante el uso de herramientas informáticas.
 
@@ -125,11 +125,9 @@ También puede considerarse una investigación tecnológica, ya que se orienta a
 
 El método de investigación utilizado es **analítico-descriptivo**.
 
-Es analítico porque el proyecto se estudia por partes: primero se analiza la detección facial, luego la interpretación de emociones y gestos, después la comunicación con el backend y finalmente la aplicación de estos datos en un videojuego interactivo. Esta separación permite comprender mejor cómo funciona el sistema completo.
+Es analítico porque el proyecto se estudia por partes: primero se analiza la detección facial, luego la interpretación de emociones y gestos, después la comunicación con el backend y finalmente como se podrian utilizar esta informacion para aplicar estos conceptos en un videojuego interactivo. Esta separación permite comprender mejor cómo funciona el sistema completo.
 
-Es descriptivo porque se explica el comportamiento del prototipo tal como se observa durante su funcionamiento. Por ejemplo, se describe qué ocurre cuando el usuario activa la cámara, cómo se detecta el rostro, cómo se muestran los datos en pantalla y cómo los gestos pueden convertirse en acciones dentro del juego.
-
-El método también incluye observación práctica, ya que el sistema puede probarse directamente para revisar si reconoce gestos, si muestra información correctamente y si la interacción resulta comprensible para el usuario.
+Es descriptivo porque detalla las características, procesos e interacciones que forman parte de la propuesta tecnológica. Por ejemplo, se explica cómo se espera que el sistema gestione la activación de la cámara, la detección de rostros, la visualización de información en pantalla y la interpretación de gestos faciales como posibles acciones dentro de una experiencia interactiva.
 
 ## 1.5.3 Fuentes y Técnicas para la Recolección de Información
 
@@ -143,35 +141,23 @@ Entre las fuentes principales se consideran investigaciones sobre emociones faci
 
 ### Fuentes técnicas
 
-Las fuentes técnicas corresponden a la documentación de las herramientas utilizadas en el proyecto, como React, Vite, face-api.js, TensorFlow.js, Phaser, Node.js, Express y MySQL. Estas fuentes permiten comprender cómo se construye el sistema y qué función cumple cada tecnología.
-
-También se considera como fuente técnica el README del proyecto MoodVision AI / PlayFace, donde se describe que la aplicación permite detectar emociones, usar la cámara, mostrar estadísticas, guardar datos y controlar un juego mediante gestos faciales.
+Las fuentes técnicas corresponden a la documentación de las herramientas utilizadas en el proyecto, como React, face-api.js, Node.js&Express y MySQL. Estas fuentes permiten comprender cómo se construye el sistema y qué función cumple cada tecnología.
 
 ### Técnicas de recolección
 
 Las técnicas de recolección de información recomendadas son:
 
-- **Observación directa:** probar la aplicación y observar cómo responde ante distintos gestos faciales.
-- **Revisión documental:** estudiar fuentes académicas y documentación técnica relacionada con el tema.
-- **Prueba funcional:** verificar si el sistema detecta rostro, emociones, puntos faciales y acciones del juego.
-- **Registro de resultados:** anotar qué gestos funcionan correctamente, cuáles presentan dificultad y qué condiciones afectan la detección.
-- **Análisis del prototipo:** revisar cómo se relacionan frontend, backend, base de datos e inteligencia artificial dentro del sistema.
+- **Observación directa:** examinar los procesos e interacciones descritos en la propuesta tecnológica para identificar la respuesta prevista del sistema ante diferentes gestos faciales y situaciones de uso.
+- **Revisión documental:** estudiar fuentes académicas, investigaciones previas y documentación técnica relacionada con inteligencia artificial, visión por computadora e interfaces interactivas.
+- **Evaluación funcional:** analizar las funcionalidades planteadas en la propuesta para determinar cómo se realizarían procesos como la detección de rostros, el reconocimiento de emociones, la identificación de puntos faciales y la ejecución de acciones dentro del entorno interactivo.
+- **Registro de hallazgos:** documentar los resultados obtenidos durante el análisis, identificando fortalezas, limitaciones, requisitos técnicos y factores que podrían influir en el desempeño de la solución propuesta.
+- **Análisis de la arquitectura del sistema:** revisar la relación e integración entre los componentes planteados, incluyendo frontend, backend, base de datos e inteligencia artificial, con el fin de comprender su funcionamiento dentro de la solución diseñada.
 
 Estas técnicas permiten obtener información suficiente para explicar el proyecto de manera clara y fundamentada durante la sustentación.
 
-## Puntos Claves Para No Perder El Enfoque De La Tesis
 
-Durante todo el documento se recomienda mantener presente que el tema central no es solamente la detección de emociones, sino la relación entre los gestos faciales y la innovación en videojuegos interactivos.
 
-Los puntos más importantes son:
 
-- El rostro puede convertirse en una forma de control digital.
-- La cámara web permite capturar gestos sin usar dispositivos especiales.
-- La inteligencia artificial ayuda a interpretar expresiones faciales.
-- El videojuego se vuelve más interactivo cuando responde al rostro del usuario.
-- La innovación está en cambiar la forma tradicional de jugar.
-- El proyecto demuestra una aplicación real desde la especialización técnico informática.
-- La privacidad debe considerarse porque el sistema utiliza cámara e imágenes.
 
 ## Glosario Básico
 
